@@ -10,3 +10,10 @@ def home(request):
     exam = Exam.objects.all()
     model = { "exams" : exam }
     return render_to_response("index.html",model)
+
+def exam_details(request, exam_id):
+    exam = Exam.objects.get(pk=exam_id)
+    question = Question.get(pk=exam_id)
+    obj = { "exam" : exam , "question" : question}
+
+    return render_to_response("exam.html" , obj)
