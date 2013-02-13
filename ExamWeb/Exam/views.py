@@ -13,7 +13,7 @@ def home(request):
 
 def exam_details(request, exam_id):
     exam = Exam.objects.get(pk=exam_id)
-    question = Question.get(pk=exam_id)
-    obj = { "exam" : exam , "question" : question}
+    #question = Question.get(pk=exam_id)
+    obj = { "exam" : exam }
 
     return render_to_response("exam.html" , obj)
