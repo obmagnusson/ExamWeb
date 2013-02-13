@@ -1,5 +1,6 @@
 from __future__ import unicode_literals
 from Exam.models import*
+
 #coding: utf8
 # Create your views here.
 from django.http import HttpResponse, HttpResponseRedirect
