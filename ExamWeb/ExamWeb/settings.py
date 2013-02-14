@@ -105,7 +105,7 @@ ROOT_URLCONF = 'ExamWeb.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'ExamWeb.wsgi.application'
 
-TEMPLATE_DIRS = ('C:/Users/Olafur/PycharmProjects/ExamWeb/templates',)
+TEMPLATE_DIRS = ('C:/Users/Notandi/Documents/GitHub/ExamWeb/ExamWeb/templates',)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -115,9 +115,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
+     'django.contrib.admindocs',
     'Exam',
 )
 
