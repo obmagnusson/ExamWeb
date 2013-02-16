@@ -15,7 +15,7 @@ urlpatterns = patterns('',
     url(r'^exams/(\d+)/$', 'Exam.views.exam_details'),
     (r'^accounts/$','django.contrib.auth.views.login'),
     (r'^accounts/login/$','django.contrib.auth.views.login'),
-    (r'^accounts/logout$','django.contrib.auth.views.logout'),
+    (r'^accounts/logout/$','django.contrib.auth.views.logout'),
 
 
     # Uncomment the admin/doc line below to enable admin documentation:

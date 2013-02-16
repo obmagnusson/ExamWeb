@@ -29,10 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
+            <state line="31" column="20" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.6933868">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -43,11 +43,8 @@
       <file leaf-file-name="exam.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/exam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="14" selection-start="692" selection-end="692" vertical-scroll-proportion="-14.384615">
-              <folding>
-                <marker date="1361020168596" expanded="true" signature="159:657" placeholder="..." />
-                <marker date="1361020168596" expanded="true" signature="192:567" placeholder="..." />
-              </folding>
+            <state line="9" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="-5.8846154">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,12 +52,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="-11.307693">
-              <folding>
-                <marker date="1361019458235" expanded="true" signature="66:412" placeholder="..." />
-                <marker date="1361019458235" expanded="true" signature="118:404" placeholder="..." />
-                <marker date="1361019458235" expanded="true" signature="280:368" placeholder="..." />
-              </folding>
+            <state line="26" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="-14.269231">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,30 +61,8 @@
       <file leaf-file-name="index1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="-50.884617">
-              <folding>
-                <marker date="1361018165544" expanded="true" signature="114:378" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="424:4088" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="431:905" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="810:895" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="912:4080" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="931:4072" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="950:1102" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="968:1094" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="1141:1408" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="1148:1400" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="1545:3811" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="1569:3803" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="1591:2241" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="1649:2231" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="1673:1849" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="1859:2035" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="2045:2221" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="2263:3029" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="2321:2963" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="3051:3790" placeholder="..." />
-                <marker date="1361018165544" expanded="true" signature="3830:4063" placeholder="..." />
-              </folding>
+            <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="-62.115383">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,7 +70,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="0" selection-start="3213" selection-end="3213" vertical-scroll-proportion="-45.307693">
+            <state line="74" column="0" selection-start="3215" selection-end="3215" vertical-scroll-proportion="-48.384617">
               <folding />
             </state>
           </provider>
@@ -108,18 +79,16 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state line="1" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExamWeb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="48" selection-start="3594" selection-end="3594" vertical-scroll-proportion="1.1683366">
+            <state line="82" column="0" selection-start="3041" selection-end="3041" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,7 +97,7 @@
       <file leaf-file-name="index1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assembled/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="-9.5">
+            <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="-60.807693">
               <folding />
             </state>
           </provider>
@@ -150,11 +119,11 @@
         <option value="$PROJECT_DIR$/templates/index1.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/assembled/default.css" />
-        <option value="$PROJECT_DIR$/ExamWeb/settings.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/exam.html" />
-        <option value="$PROJECT_DIR$/Exam/views.py" />
         <option value="$PROJECT_DIR$/Exam/models.py" />
+        <option value="$PROJECT_DIR$/ExamWeb/settings.py" />
+        <option value="$PROJECT_DIR$/Exam/views.py" />
+        <option value="$PROJECT_DIR$/templates/exam.html" />
       </list>
     </option>
   </component>
@@ -541,42 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="-50.884617">
-          <folding>
-            <marker date="1361018165544" expanded="true" signature="114:378" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="424:4088" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="431:905" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="810:895" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="912:4080" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="931:4072" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="950:1102" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="968:1094" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="1141:1408" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="1148:1400" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="1545:3811" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="1569:3803" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="1591:2241" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="1649:2231" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="1673:1849" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="1859:2035" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="2045:2221" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="2263:3029" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="2321:2963" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="3051:3790" placeholder="..." />
-            <marker date="1361018165544" expanded="true" signature="3830:4063" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="3213" selection-end="3213" vertical-scroll-proportion="-45.307693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assembled/default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="172" column="19" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.042288557">
@@ -584,31 +517,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assembled/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="-9.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/exam.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="692" selection-end="692" vertical-scroll-proportion="-14.384615">
-          <folding>
-            <marker date="1361020168596" expanded="true" signature="159:657" placeholder="..." />
-            <marker date="1361020168596" expanded="true" signature="192:567" placeholder="..." />
-          </folding>
+        <state line="9" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="-5.8846154">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="-11.307693">
-          <folding>
-            <marker date="1361019458235" expanded="true" signature="66:412" placeholder="..." />
-            <marker date="1361019458235" expanded="true" signature="118:404" placeholder="..." />
-            <marker date="1361019458235" expanded="true" signature="280:368" placeholder="..." />
-          </folding>
+        <state line="26" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="-14.269231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="-62.115383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="3215" selection-end="3215" vertical-scroll-proportion="-48.384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamWeb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="3041" selection-end="3041" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembled/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="-60.807693">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -621,26 +575,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
+        <state line="31" column="20" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.6933868">
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExamWeb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="48" selection-start="3594" selection-end="3594" vertical-scroll-proportion="1.1683366">
-          <folding />
         </state>
       </provider>
     </entry>
