@@ -1,0 +1,102 @@
+<!DOCTYPE html >
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Assembled
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20121231
+
+-->
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/assembled/default.css" />
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        <div id="logo">
+            <h1><a href="/">Prófasetrið</a></h1>
+        </div>
+    </div>
+    <!-- end #header -->
+    <div id="menu">
+        <nav>
+            <li> <a class="current_page_item" href="/">Home</a></li>
+            <li> <a href="#">Blog</a></li>
+            <li> <a href="#">Photos</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Links</a></li>
+            <li> <a class="last" href="#">Contact</a></li>
+        </nav>
+    </div>
+    <div id="banner"></div>
+    <div id="three-columns">
+        <div class="content">
+            <div id="column1">
+{#                <h2>Fusce fringilla</h2>#}
+{#                <ul class="list-style1">#}
+{#                    <li class="first">#}
+{#                        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. </p>#}
+{#                        <p><a href="#" class="link-style">Read More</a></p>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. </p>#}
+{#                        <p><a href="#" class="link-style">Read More</a></p>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. </p>#}
+{#                        <p><a href="#" class="link-style">Read More</a></p>#}
+{#                    </li>#}
+{#                </ul>#}
+            </div>
+            <div id="column2">
+                <h2>Prófasíða</h2>
+                <ul class="list-style2">
+                    {% block list-style2 %}
+{#                    <li class="first"><a href="#">Vestibulum luctus venenatis dui</a></li>#}
+                         {% for x in exams %}
+                           <li>
+                               <a href="exams/{{ x.id }}" >{{ x.title }}</a>
+                           </li>
+                        {% endfor %}
+                    {% endblock %}
+                </ul>
+
+            </div>
+            {% comment %}<div id="column3">
+                <h2>Maecenas luctus</h2>
+                <p><img src="../assembled/images/pics01.jpg" width="430" height="200" alt="" /></p>
+                <p>This is <strong>Assembled </strong>, a free, fully standards-compliant CSS template designed by <a href="http://www.freecsstemplates.org">FCT</a>.  The photo used in this template is from <a href="http://fotogrph.com/">Fotogrph</a>.  This free template is released under a <a href="http://creativecommons.org/licenses/by/3/">Creative Commons Attributions 3.0</a> license, so you’re pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :)</p>
+                <p><a href="#" class="link-style">Read More</a></p>
+            </div>{% endcomment %}
+
+        </div>
+    </div>
+    <div id="footer">
+        <p>Copyright (c) 2012 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org">FCT</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>  + <a href="http://iconify.it/">Iconify.it</a></p>
+    </div>
+
+</div>
+</body>
+</html>
+
+
+{#    <link rel="stylesheet" type="text/css" href="/assembled/default.css" />#}
+{#    <title>Prófasíða</title>#}
+{#</head>#}
+{##}
+{#<body>#}
+{#<div>#}
+{#    <h1>Velkominn, {{ u }}</h1>#}
+{#    {% for x in exams %}#}
+{#        <li>#}
+{#            <a href="exams/{{ x.id }}" >{{ x.title }}</a>#}
+{#        </li>#}
+{#    {% endfor %}#}
+{#</div>#}
+{##}
+{#</body>#}
+{#</html>#}

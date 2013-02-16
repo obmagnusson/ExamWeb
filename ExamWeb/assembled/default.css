@@ -12,7 +12,12 @@ body {
 	color: #454545;
 }
 
+h1{
+   background-image: url("/assembled/images/header-image-bg.jpg");
+}
+
 h1, h2, h3 {
+
 	margin: 0;
 	padding: 0;
 	font-weight: 300;

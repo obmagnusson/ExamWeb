@@ -9,15 +9,18 @@ from django.contrib.auth.decorators import  login_required
 from django.shortcuts import *
 from django.views.decorators.csrf import csrf_protect
 
-
+@login_required()
 def home(request):
     exam = Exam.objects.all()
     model = { "exams" : exam, "u": request.user.username }
-    return render_to_response("index.html",model)
+    return render_to_response("base.html",model)
 
+@login_required()
 def exam_details(request, exam_id):
     exam = Exam.objects.get(pk=exam_id)
-    #question = Question.get(pk=exam_id)
-    obj = { "exam" : exam }
+    #question = Question.objects.filter(exam=exam_id)
+    question = Question.objects.filter(exam_id=exam.id)
+    #choice = Question.objects.filter(exam_id=exam.id)
+    obj = { "exam" : exam , "question" : question}# , "choice" : choice}
 
     return render_to_response("exam.html" , obj)

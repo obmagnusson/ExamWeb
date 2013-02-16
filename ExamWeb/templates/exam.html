@@ -1,14 +1,35 @@
+{% extends "base.html" %}
 <!DOCTYPE html>
 <html>
-<head>
-    <title>{{ exam.title }}</title>
-</head>
-<body>
-            <h1>{{ exam.title }}</h1>
-        <li>{{ exam.date_published }}</li>
-        <li>{{ exam.id }}</li>
+    <head>
+{#        <link rel="stylesheet" type="text/css" href="/assembled/default.css" />#}
+        <title>Prófasíða</title>
+    </head>
 
-        <from action= "/post"
+    <body>
+        <title>{{ exam.title }}</title>
 
-</body>
+        <form action="">
+            <input type="radio" name="sex" value="male">Male<br>
+            <input type="radio" name="sex" value="female">Female
+
+
+        <h2>{{ exam.title }}</h2>
+        {% block list-style2 %}
+        <ul class="list-style2">
+            <li>{{ exam.title }}</li>
+                {% for x in question %}
+                        <li>{{ x.title }}</li>
+                             {% for c in x.choice_set.all %}
+                                 <input type="radio"> {{ c.text }}<br>
+                            {% endfor %}
+                {% endfor %}
+            </ul>
+            <p><a href="#" class="link-style">Skila prófi ehhhhh</a></p>
+        {% endblock %}
+{#            {% block link-style %}#}
+
+{#            {% endblock %}#}
+        </form>
+    </body>
 </html>
