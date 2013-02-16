@@ -24,12 +24,10 @@ Released   : 20121231
     <!-- end #header -->
     <div id="menu">
         <nav>
-            <li> <a class="current_page_item" href="/">Home</a></li>
-            <li> <a href="#">Blog</a></li>
-            <li> <a href="#">Photos</a></li>
-            <li> <a href="#">About</a></li>
-            <li> <a href="#">Links</a></li>
-            <li> <a class="last" href="#">Contact</a></li>
+            <li> <a class="current_page_item" href="/">Heim</a></li>
+            <li> <a href="/accounts/login/">Login</a></li>
+            <li> <a href="/accounts/logout/">Logout</a></li>
+            <li> <a class="last" href="#">Create Exam</a></li>
         </nav>
     </div>
     <div id="banner"></div>
@@ -52,19 +50,8 @@ Released   : 20121231
 {#                    </li>#}
 {#                </ul>#}
             </div>
-            <div id="column2">
-                <h2>Prófasíða</h2>
-                <ul class="list-style2">
-                    {% block list-style2 %}
-{#                    <li class="first"><a href="#">Vestibulum luctus venenatis dui</a></li>#}
-                         {% for x in exams %}
-                           <li>
-                               <a href="exams/{{ x.id }}" >{{ x.title }}</a>
-                           </li>
-                        {% endfor %}
-                    {% endblock %}
-                </ul>
-
+            <div id="content">
+                {% block content %}{% endblock %}
             </div>
             {% comment %}<div id="column3">
                 <h2>Maecenas luctus</h2>

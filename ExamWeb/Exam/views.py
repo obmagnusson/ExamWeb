@@ -13,7 +13,7 @@ from django.views.decorators.csrf import csrf_protect
 def home(request):
     exam = Exam.objects.all()
     model = { "exams" : exam, "u": request.user.username }
-    return render_to_response("base.html",model)
+    return render_to_response("index.html",model)
 
 @login_required()
 def exam_details(request, exam_id):

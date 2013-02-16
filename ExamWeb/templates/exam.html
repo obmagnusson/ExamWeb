@@ -1,12 +1,11 @@
 {% extends "base.html" %}
-<!DOCTYPE html>
-<html>
-    <head>
+{% block content %}
+
 {#        <link rel="stylesheet" type="text/css" href="/assembled/default.css" />#}
         <title>Prófasíða</title>
-    </head>
 
-    <body>
+
+    
         <title>{{ exam.title }}</title>
 
         <form action="">
@@ -31,5 +30,5 @@
 
 {#            {% endblock %}#}
         </form>
-    </body>
-</html>
+
+{% endblock %}

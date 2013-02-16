@@ -32,7 +32,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="53" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
+            <state line="25" column="35" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -41,8 +41,48 @@
       <file leaf-file-name="exam.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/exam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="37" selection-start="535" selection-end="535" vertical-scroll-proportion="-12.423077">
+            <state line="18" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="-11.769231">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="11" selection-start="338" selection-end="338" vertical-scroll-proportion="-9.807693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="-21.307692">
+              <folding>
+                <marker date="1361013510830" expanded="true" signature="114:378" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="424:4088" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="431:905" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="810:895" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="912:4080" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="931:4072" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="950:1102" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="968:1094" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="1141:1408" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="1148:1400" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="1545:3811" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="1569:3803" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="1591:2241" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="1649:2231" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="1673:1849" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="1859:2035" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="2045:2221" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="2263:3029" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="2321:2963" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="3051:3790" placeholder="..." />
+                <marker date="1361013510830" expanded="true" signature="3830:4063" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,7 +90,36 @@
       <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="30" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.619137">
+            <state line="80" column="7" selection-start="3651" selection-end="3651" vertical-scroll-proportion="0.76870745">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExamWeb/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="152" column="0" selection-start="5335" selection-end="5335" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assembled/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="-20.0">
               <folding />
             </state>
           </provider>
@@ -79,21 +148,21 @@
         <option value="$PROJECT_DIR$/Exam/models.py" />
         <option value="$PROJECT_DIR$/ExamWeb/base.html" />
         <option value="$PROJECT_DIR$/ExamWeb/urls.py" />
-        <option value="$PROJECT_DIR$/Exam/views.py" />
         <option value="$PROJECT_DIR$/templates/index1.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/ExamWeb/settings.py" />
         <option value="$PROJECT_DIR$/templates/exam.html" />
         <option value="$PROJECT_DIR$/assembled/default.css" />
+        <option value="$PROJECT_DIR$/ExamWeb/settings.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/Exam/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -121,6 +190,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,24 +247,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assembled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExamWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExamWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="ExamWeb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -215,17 +267,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.lookFeel" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/HrafnkellBrimar_BjörnÞorsteins_ShitSchool (1)/ShitSchool" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -259,25 +312,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <module name="ExamWeb" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,6 +331,25 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="ExamWeb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -379,18 +432,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="1" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18333334" sideWeight="0.7470687" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18516542" sideWeight="0.7474286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3048576" sideWeight="0.49772727" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25293133" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25257143" sideWeight="0.5037353" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25257143" sideWeight="0.49252936" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -454,11 +507,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Django-1.4.3/django/utils/importlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.5802469" />
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Django-1.4.3/django/core/management/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="251" column="0" selection-start="9077" selection-end="9077" vertical-scroll-proportion="9.818616" />
@@ -493,53 +541,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="12" selection-start="3795" selection-end="3795" vertical-scroll-proportion="1.8330207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExamWeb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="3881" selection-end="3881" vertical-scroll-proportion="0.5314685">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exam/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="53" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="11" selection-start="338" selection-end="338" vertical-scroll-proportion="-9.807693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/exam.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="535" selection-end="535" vertical-scroll-proportion="-12.423077">
           <folding />
         </state>
       </provider>
@@ -551,9 +555,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ExamWeb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="0" selection-start="5335" selection-end="5335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembled/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="-20.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/exam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="-21.307692">
+          <folding>
+            <marker date="1361013510830" expanded="true" signature="114:378" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="424:4088" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="431:905" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="810:895" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="912:4080" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="931:4072" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="950:1102" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="968:1094" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="1141:1408" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="1148:1400" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="1545:3811" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="1569:3803" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="1591:2241" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="1649:2231" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="1673:1849" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="1859:2035" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="2045:2221" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="2263:3029" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="2321:2963" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="3051:3790" placeholder="..." />
+            <marker date="1361013510830" expanded="true" signature="3830:4063" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="338" selection-end="338" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="35" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="30" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.619137">
+        <state line="80" column="7" selection-start="3651" selection-end="3651" vertical-scroll-proportion="0.76870745">
           <folding />
         </state>
       </provider>
