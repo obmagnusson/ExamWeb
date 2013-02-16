@@ -1,0 +1,7 @@
+generated.conf
+*.swp
+*.pyc
+*.[oa]
+db.ExamWeb
+settings.py
+RCS/
