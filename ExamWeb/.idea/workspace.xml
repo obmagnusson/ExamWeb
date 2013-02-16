@@ -23,7 +23,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="-153.0">
               <folding />
             </state>
           </provider>
@@ -32,8 +32,15 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="25" column="35" selection-start="953" selection-end="953" vertical-scroll-proportion="0.7680312">
               <folding />
+=======
+            <state line="31" column="20" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.6933868">
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -41,7 +48,11 @@
       <file leaf-file-name="exam.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/exam.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="18" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+=======
+            <state line="9" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="-5.8846154">
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -50,7 +61,11 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="15" column="6" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+=======
+            <state line="26" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="-14.269231">
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -59,7 +74,11 @@
       <file leaf-file-name="index1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index1.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0">
+=======
+            <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="-62.115383">
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -68,7 +87,11 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="80" column="7" selection-start="3408" selection-end="3408" vertical-scroll-proportion="-9.076923">
+=======
+            <state line="74" column="0" selection-start="3215" selection-end="3215" vertical-scroll-proportion="-48.384617">
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -77,7 +100,11 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="18" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+=======
+            <state line="1" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -86,7 +113,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExamWeb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="0" selection-start="5335" selection-end="5335" vertical-scroll-proportion="0.0">
+            <state line="82" column="0" selection-start="3041" selection-end="3041" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,6 +122,7 @@
       <file leaf-file-name="index1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assembled/index1.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="0.0">
               <folding />
             </state>
@@ -105,6 +133,9 @@
         <entry file="file://$PROJECT_DIR$/assembled/default.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="172" column="19" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0">
+=======
+            <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="-60.807693">
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -121,16 +152,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/../untitled/Hello/urls.py" />
-        <option value="$PROJECT_DIR$/Exam/models.py" />
         <option value="$PROJECT_DIR$/ExamWeb/base.html" />
         <option value="$PROJECT_DIR$/ExamWeb/urls.py" />
         <option value="$PROJECT_DIR$/templates/index1.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/exam.html" />
         <option value="$PROJECT_DIR$/assembled/default.css" />
-        <option value="$PROJECT_DIR$/ExamWeb/settings.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/Exam/models.py" />
+        <option value="$PROJECT_DIR$/ExamWeb/settings.py" />
         <option value="$PROJECT_DIR$/Exam/views.py" />
+        <option value="$PROJECT_DIR$/templates/exam.html" />
       </list>
     </option>
   </component>
@@ -415,11 +446,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18787879" sideWeight="0.9378151" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.062184874" sideWeight="0.5037353" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25257143" sideWeight="0.49252936" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18787879" sideWeight="0.8806723" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11932773" sideWeight="0.505303" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11932773" sideWeight="0.48939395" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> master
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -518,61 +557,98 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assembled/default.css">
+<<<<<<< HEAD
+=======
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="19" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExamWeb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="0" selection-start="5335" selection-end="5335" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assembled/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="0.0">
+        <state line="172" column="19" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.042288557">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/exam.html">
+>>>>>>> master
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="-5.8846154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="-14.269231">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+        <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="0.0">
+=======
+        <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="-62.115383">
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="7" selection-start="3408" selection-end="3408" vertical-scroll-proportion="-9.076923">
+<<<<<<< HEAD
+        <state line="18" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+=======
+        <state line="74" column="0" selection-start="3215" selection-end="3215" vertical-scroll-proportion="-48.384617">
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="95" column="0" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0">
+=======
+        <state line="1" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+>>>>>>> master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamWeb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="15" column="6" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+=======
+        <state line="82" column="0" selection-start="3041" selection-end="3041" vertical-scroll-proportion="0.0">
+>>>>>>> master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembled/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="18" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+=======
+        <state line="93" column="7" selection-start="4042" selection-end="4042" vertical-scroll-proportion="-60.807693">
+>>>>>>> master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="7" selection-start="3408" selection-end="3408" vertical-scroll-proportion="-9.076923">
+=======
+    <entry file="file://$PROJECT_DIR$/Exam/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="-153.0">
+>>>>>>> master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Exam/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
@@ -584,6 +660,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="35" selection-start="953" selection-end="953" vertical-scroll-proportion="0.7680312">
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/Exam/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="20" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.6933868">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+>>>>>>> master
         </state>
       </provider>
     </entry>
