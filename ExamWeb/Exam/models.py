@@ -13,3 +13,7 @@ class Choice(models.Model):
     question = models.ForeignKey(Question)
     text = models.CharField(max_length=256)
     isCorrect = models.BooleanField()
+
+class ExamResult(models.Model):
+    result = models.PositiveIntegerField()
+

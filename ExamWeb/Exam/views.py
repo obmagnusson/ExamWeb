@@ -24,3 +24,4 @@ def exam_details(request, exam_id):
     obj = { "exam" : exam , "question" : question}# , "choice" : choice}
 
     return render_to_response("exam.html" , obj)
+
