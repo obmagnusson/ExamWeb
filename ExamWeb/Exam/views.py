@@ -38,13 +38,14 @@ def post_exam(request):
         txt = request.POST["createExam"]
         e = Exam()
         e.title = txt
-        e.date_published = "2010-12-12"
-       # print datetime.now
-        print "Heejelkjler"
-
+        e.date_published = datetime.utcnow()
+        print datetime.now
         e.save()
     return  HttpResponseRedirect("/")
 
+def add_question(request , exam_id):
+
+    return render_to_response("addQuestion.html")
 
 def login(request):
     obj = {"next": "/index.html"}

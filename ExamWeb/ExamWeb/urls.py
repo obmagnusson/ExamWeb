@@ -15,6 +15,8 @@ urlpatterns = patterns('',
     url(r'^createExam/$', 'Exam.views.create_exam'),
     url(r'^exams/(\d+)/$', 'Exam.views.exam_details'),
     url(r'^createExam/post_exam', 'Exam.views.post_exam'),
+    url(r'^exams/(\d+)/addQuestion$', 'Exam.views.add_question'),
+
 
     (r'^accounts/$','django.contrib.auth.views.login'),
     (r'^accounts/login/$','django.contrib.auth.views.login'),

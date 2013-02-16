@@ -3,6 +3,9 @@
 
     <title>Prófasíða</title>
 
+
+    <p><a href="/exams/{{ exam.id }}/addQuestion" class="link-style">Bæta við spurningum</a></p>
+
     <h2>{{ exam.title }}</h2>
 
 
@@ -11,7 +14,7 @@
 
         <title>{{ exam.title }}</title>
 
-
+        <h2> {{ exam.date_published }} </h2>
         <form action="">
         <ul class="list-style2">
             <li>{{ exam.title }}</li>
