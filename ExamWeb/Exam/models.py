@@ -1,9 +1,12 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Exam(models.Model):
     title = models.CharField(max_length=256)
+    author = models.CharField(max_length=256)
     date_published = models.DateField()
+    date_deadline = models.DateField()
 
 class Question(models.Model):
     exam = models.ForeignKey(Exam)
@@ -16,4 +19,5 @@ class Choice(models.Model):
 
 class ExamResult(models.Model):
     result = models.PositiveIntegerField()
-
+    exam = models.ForeignKey(Exam)
+    student = models.ForeignKey(User)

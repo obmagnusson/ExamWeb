@@ -1,4 +1,4 @@
-{{% extends "base.html" %}#}
+{% extends "base.html" %}
 {% block content %}
 <div id="column2">
     <h2>Prófasíða</h2>
@@ -6,16 +6,12 @@
 
             <p>Velkominn, {{ user.username }}</p>
 
-
     <ul class="list-style2">
-
-            {#                    <li class="first"><a href="#">Vestibulum luctus venenatis dui</a></li>#}
             {% for x in exams %}
                 <li>
                     <a href="exams/{{ x.id }}" >{{ x.title }}</a>
                 </li>
             {% endfor %}
-
     </ul>
 
 

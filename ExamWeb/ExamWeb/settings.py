@@ -121,7 +121,7 @@ INSTALLED_APPS = (
      'django.contrib.admindocs',
     'Exam',
 )
-
+APPEND_SLASH=False
 LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "accounts/logoutss"
 # A sample logging configuration. The only tangible logging

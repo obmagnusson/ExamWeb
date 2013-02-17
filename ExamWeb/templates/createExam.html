@@ -1,9 +1,24 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <form action="post_exam" method="POST" >
-        <input type="text" name="createExam"/>
+
+
+    <form action="createExam/post_exam" method="POST" >
+        <label>Titill</label></br>
+        <input type="text" name="createExam"/></br>
+        <label>Skilafrestur</label></br>
+        <input type="text" name="date" id="datepicker" /></br>
         <input type="submit" value="Búa til nýtt próf!"/>
-     </form>
+
+    </form>
+
+  <script type="text/javascript" >
+
+
+      $("#datepicker").datepicker();
+      $( "#datepicker").datepicker( "option", "dateFormat", "yy-mm-dd");
+
+{#      $("#datepicker").datepicker("option", "showAnim", "bounce");#}
+  </script>
 
 {% endblock %}

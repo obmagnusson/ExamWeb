@@ -12,10 +12,12 @@ urlpatterns = patterns('',
      {'document_root': settings.MEDIA_ROOT}),
 
     url(r'^$', 'Exam.views.home'),
-    url(r'^createExam/$', 'Exam.views.create_exam'),
-    url(r'^exams/(\d+)/$', 'Exam.views.exam_details'),
+    url(r'^createExam$', 'Exam.views.create_exam'),
+    url(r'^exams/(\d+)$', 'Exam.views.exam_details'),
     url(r'^createExam/post_exam', 'Exam.views.post_exam'),
     url(r'^exams/(\d+)/addQuestion$', 'Exam.views.add_question'),
+    url(r'^exams/(\d+)/return_exam/(\d+)$', 'Exam.views.return_exam'),
+    url(r'^examResults/(\d+)$', 'Exam.views.exam_results'),
 
 
     (r'^accounts/$','django.contrib.auth.views.login'),

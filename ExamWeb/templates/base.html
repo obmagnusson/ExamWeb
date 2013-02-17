@@ -13,6 +13,9 @@ Released   : 20121231
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="/assembled/default.css" />
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/base/jquery-ui.css" type="text/css" rel="Stylesheet" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -27,45 +30,26 @@ Released   : 20121231
             <li> <a class="current_page_item" href="/">Heim</a></li>
             <li> <a href="/accounts/login/">Login</a></li>
             <li> <a href="/accounts/logout/">Logout</a></li>
-            <li> <a class="last" href="/createExam">Create Exam</a></li>
+            <li> <a href="/createExam">Create Exam</a></li>
+            <li> <a class="last" href="/examResults/{{ user.id }}">Exam result</a></li>
+
         </nav>
     </div>
     <div id="banner"></div>
     <div id="three-columns">
         <div class="content">
             <div id="column1">
-{#                <h2>Fusce fringilla</h2>#}
-{#                <ul class="list-style1">#}
-{#                    <li class="first">#}
-{#                        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. </p>#}
-{#                        <p><a href="#" class="link-style">Read More</a></p>#}
-{#                    </li>#}
-{#                    <li>#}
-{#                        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. </p>#}
-{#                        <p><a href="#" class="link-style">Read More</a></p>#}
-{#                    </li>#}
-{#                    <li>#}
-{#                        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. </p>#}
-{#                        <p><a href="#" class="link-style">Read More</a></p>#}
-{#                    </li>#}
-{#                </ul>#}
             </div>
 
 
             <div id="content">
                 {% block content %}{% endblock %}
             </div>
-            {% comment %}<div id="column3">
-                <h2>Maecenas luctus</h2>
-                <p><img src="../assembled/images/pics01.jpg" width="430" height="200" alt="" /></p>
-                <p>This is <strong>Assembled </strong>, a free, fully standards-compliant CSS template designed by <a href="http://www.freecsstemplates.org">FCT</a>.  The photo used in this template is from <a href="http://fotogrph.com/">Fotogrph</a>.  This free template is released under a <a href="http://creativecommons.org/licenses/by/3/">Creative Commons Attributions 3.0</a> license, so you’re pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :)</p>
-                <p><a href="#" class="link-style">Read More</a></p>
-            </div>{% endcomment %}
 
         </div>
     </div>
     <div id="footer">
-        <p>Copyright (c) 2012 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org">FCT</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>  + <a href="http://iconify.it/">Iconify.it</a></p>
+        <p>Copyright (c) 2012 Prófasíðan.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org">FCT</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>  + <a href="http://iconify.it/">Iconify.it</a></p>
     </div>
 
 </div>
