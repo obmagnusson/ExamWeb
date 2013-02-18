@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{%  block content %}
+    <p>notandi :{{ request.user }}</p>
+    {% for r in results %}
+        <ul class="list-style2">
+    <li>   <h3>{{ r.exam.title }}</h3>
+        <p>Einkunn : {{ r.result }} </p>
+      <meter value="{{ r.result }}" min="0" max="10" low="3" high="9" optimum="100"></meter></li>
+    {% endfor %}
+    </ul>
+{%  endblock %}

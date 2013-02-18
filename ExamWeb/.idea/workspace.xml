@@ -52,7 +52,7 @@
       <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="43" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.82879376">
+            <state line="100" column="0" selection-start="3109" selection-end="3109" vertical-scroll-proportion="0.29961088">
               <folding />
             </state>
           </provider>
@@ -553,7 +553,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="43" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.82879376">
+        <state line="100" column="0" selection-start="3109" selection-end="3109" vertical-scroll-proportion="0.29961088">
           <folding />
         </state>
       </provider>

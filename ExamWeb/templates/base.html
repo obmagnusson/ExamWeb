@@ -95,19 +95,19 @@ Released   : 20121231
 
 
 
-            var strid = '#'+buttid;
- //           $('</br>').appendTo(strid);
+            var strid = '#optext'+buttid;
+           $('<br>').appendTo(strid);
             console.log("Strid ryse :" +strid);
 
             buttid++;
-            console.log("Strid:" +strid)
+            console.log("Strid:" +strid);
             var option2 = prompt('Valmöguleiki 2');
             $('<input type="radio" class="choice" name="'+qId+'" value="2" id="'+buttid+'" >')
                     .insertAfter($(strid)).after('<span id="'+'optext'+buttid+'">'+option2+'</span>');
 
 
-            var strid = '#'+buttid;
-            $('<br>').insertBefore(buttid);
+            var strid = '#optext'+buttid;
+            $('<br>').appendTo(buttid);
 
             buttid++;
             var option3 = prompt('Valmöguleiki 3');
@@ -115,7 +115,7 @@ Released   : 20121231
                     .insertAfter($(strid)).after('<span id="'+'optext'+buttid+'">'+option3+'</span>');
 
 
-            var strid = '#'+buttid;
+            var strid = '#optext'+buttid;
             $('<br>').appendTo(strid);
 
             buttid++;
@@ -124,7 +124,7 @@ Released   : 20121231
                     .insertAfter($(strid)).after('<span id="'+'optext'+buttid+'">'+option4+'</span>');
 
 
-            var strid = '#'+buttid;
+            var strid = '#optext'+buttid;
             $('<br>').appendTo(strid);
 
 //            $('<br>').insertBefore('.choice');
