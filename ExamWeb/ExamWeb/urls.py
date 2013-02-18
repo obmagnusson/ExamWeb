@@ -15,7 +15,7 @@ urlpatterns = patterns('',
     url(r'^createExam$', 'Exam.views.create_exam'),
     url(r'^exams/(\d+)$', 'Exam.views.exam_details'),
     url(r'^createExam/post_exam', 'Exam.views.post_exam'),
-    url(r'^exams/(\d+)/addQuestion$', 'Exam.views.add_question'),
+    url(r'^editExam/(\d+)$', 'Exam.views.edit_exam'),
     url(r'^exams/(\d+)/return_exam/(\d+)$', 'Exam.views.return_exam'),
     url(r'^examResults/(\d+)$', 'Exam.views.exam_results'),
 

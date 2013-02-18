@@ -8,8 +8,16 @@
     <ul class="list-style2">
             {% for x in exams %}
                 <li>
-                    <a href="exams/{{ x.id }}" >{{ x.title }}</a>
+                    {% if user.is_superuser %}
+                        <a href="editExam/{{ x.id }}" >{{ x.title }}</a>
+                    {% else %}
+                        <a href="exams/{{ x.id }}" >{{ x.title }}</a>
+                    {% endif %}
+                    <p>Prófið lokar  : {{ x.date_deadline }}</p>
+                    <p>Kennari : {{ x.author }}</p>
+
                 </li>
+
             {% endfor %}
     </ul>
 

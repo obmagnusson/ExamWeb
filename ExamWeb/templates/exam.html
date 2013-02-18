@@ -2,8 +2,8 @@
 {% block content %}
 
     <title>Prófasíða</title>
-
-    <p><a href="/exams/{{ exam.id }}/addQuestion" class="link-style">Bæta við spurningum</a></p>
+    <p>notandi :{{ user.username }}</p>
+    <p><input type="button" id="butt" class="link-style" value="Bæta við Spurningu"></p>
 
     <h2>{{ exam.title }}</h2>
     <p>Progress: <progress id="progressbar" max=100></progress></p>
@@ -11,7 +11,7 @@
     <div id="percentage"></div>
     {% block list-style2 %}
 
-        <h2> {{ exam.date_published }} </h2>
+        <p> {{ exam.date_published }} </p>
         <form action="{{ exam.id }}/return_exam/{{ exam.id }}" method="POST">
                 <ul class="list-style2">
                     <li>{{ exam.title }}</li>
@@ -23,7 +23,11 @@
                                      {% endfor %}
                         {% endfor %}
                 </ul>
-            <input type="submit" class="link-style" value="Skila Prófi">
+            {% if user.is_superuser  %}
+                <input type="submit" class="link-style" value="Vista Próf">
+            {% else %}
+                <input type="submit" class="link-style" value="Skila Prófi">
+            {% endif %}
         </form>
     {% endblock %}
     <section>

@@ -23,7 +23,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="23" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
+            <state line="84" column="9" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -31,64 +31,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="examResults.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/examResults.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="92" selection-end="92" vertical-scroll-proportion="-1.9615384">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="93" selection-end="93" vertical-scroll-proportion="-3.2692308">
+            <state line="14" column="31" selection-start="467" selection-end="467" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="287" selection-end="287" vertical-scroll-proportion="-7.1153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exam.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exam.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/exam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="67" selection-start="272" selection-end="272" vertical-scroll-proportion="0.26459143">
+            <state line="14" column="77" selection-start="417" selection-end="486" vertical-scroll-proportion="-6.576923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+            <state line="109" column="43" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.82879376">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createExam.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/createExam.html">
+      <file leaf-file-name="editExam.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/editExam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="72" selection-start="512" selection-end="512" vertical-scroll-proportion="-10.461538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExamWeb/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="12" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.0">
+            <state line="8" column="63" selection-start="333" selection-end="333" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
@@ -107,17 +80,18 @@
         <option value="$PROJECT_DIR$/../untitled/Hello/urls.py" />
         <option value="$PROJECT_DIR$/ExamWeb/base.html" />
         <option value="$PROJECT_DIR$/templates/index1.html" />
-        <option value="$PROJECT_DIR$/templates/addQuestion.html" />
-        <option value="$PROJECT_DIR$/ExamWeb/urls.py" />
-        <option value="$PROJECT_DIR$/assembled/default.css" />
         <option value="$PROJECT_DIR$/Exam/models.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/ExamWeb/settings.py" />
+        <option value="$PROJECT_DIR$/assembled/default.css" />
         <option value="$PROJECT_DIR$/templates/examResults.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/Exam/views.py" />
         <option value="$PROJECT_DIR$/templates/createExam.html" />
         <option value="$PROJECT_DIR$/templates/exam.html" />
+        <option value="$PROJECT_DIR$/templates/addQuestion.html" />
+        <option value="$PROJECT_DIR$/ExamWeb/urls.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/Exam/views.py" />
+        <option value="$PROJECT_DIR$/templates/editExam.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
@@ -503,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/addQuestion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.036324788">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exam/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="25" selection-start="126" selection-end="126" vertical-scroll-proportion="0.1734694">
@@ -526,60 +493,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="23" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assembled/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="1" selection-start="387" selection-end="387" vertical-scroll-proportion="0.6609849">
+        <state line="296" column="35" selection-start="3460" selection-end="3460" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/examResults.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="92" selection-end="92" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="93" selection-end="93" vertical-scroll-proportion="-3.2692308">
+        <state line="2" column="38" selection-start="85" selection-end="85" vertical-scroll-proportion="0.06451613">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExamWeb/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+        <state line="17" column="53" selection-start="688" selection-end="688" vertical-scroll-proportion="0.37974682">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/createExam.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="72" selection-start="512" selection-end="512" vertical-scroll-proportion="-10.461538">
+        <state line="10" column="55" selection-start="389" selection-end="389" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/Exam/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="287" selection-end="287" vertical-scroll-proportion="-7.1153846">
+        <state line="84" column="9" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="467" selection-end="467" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/editExam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="63" selection-start="333" selection-end="333" vertical-scroll-proportion="-5.230769">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/exam.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="67" selection-start="272" selection-end="272" vertical-scroll-proportion="0.26459143">
+        <state line="14" column="77" selection-start="417" selection-end="486" vertical-scroll-proportion="-6.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="43" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.82879376">
           <folding />
         </state>
       </provider>

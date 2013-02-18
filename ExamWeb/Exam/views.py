@@ -13,7 +13,7 @@ from django.shortcuts import *
 def home(request):
     print "home"
     #exam = ExamResult.objects.filter(student=request.user.id)
-    exam = Exam.objects.all()
+    exam = Exam.objects.filter(date_deadline__gt=datetime.utcnow()).order_by('date_deadline')
     model = { "exams" : exam, "u": request.user.username }
     return render_to_response("index.html",model, context_instance=RequestContext(request))
 
@@ -21,15 +21,16 @@ def home(request):
 def exam_details(request, exam_id):
     exam = Exam.objects.get(pk=exam_id)
     question = Question.objects.filter(exam_id=exam.id)
-    obj = { "exam" : exam , "question" : question}
+    obj = { "exam" : exam , "question" : question,"u": request.user.username, }
 
-    return render_to_response("exam.html" , obj)
+    return render_to_response("exam.html" , obj,context_instance=RequestContext(request))
 
 @user_passes_test(lambda u: u.is_superuser)
 def create_exam(request):
     print "create sdaelkmfaldkjf"
     return render_to_response("createExam.html")
 
+@login_required()
 def post_exam(request):
     if request.method == 'GET':
         return render_to_response("/")
@@ -45,6 +46,7 @@ def post_exam(request):
         e.save()
     return  HttpResponseRedirect("/")
 
+@login_required()
 def return_exam(request, student_id, exam_id):
     if request.method == 'GET':
         print "skilaget"
@@ -75,13 +77,36 @@ def return_exam(request, student_id, exam_id):
         e.save()
     return  HttpResponseRedirect("/")
 
+def post_questions(request, exam_id):
+    if request.method == 'GET':
+        print "skilaget"
+        return render_to_response("/")
+
+    else:
+        q = Question()#Exam.objects.get(exam_id=exam_id)
+
+#        questiontxt = request.POST[]
+#        q.exam_id = exam_id
+#        q.title = questiontxt
+#        c = Choice()
+
+
+
+    return HttpResponseRedirect("/")
+
+
+@login_required()
 def exam_results(request, student_id):
     results = ExamResult.objects.filter(student_id=student_id)
     obj = { "results" : results}
     return render_to_response("examResults.html",obj)
 
-def add_question(request , exam_id):
-    return render_to_response("addQuestion.html")
+@login_required()
+def edit_exam(request , exam_id):
+    exam = Exam.objects.get(id=exam_id)
+    obj ={ "exam" : exam}
+    return render_to_response("editExam.html",obj)
+
 
 def login(request):
     obj = {"next": "/index.html"}

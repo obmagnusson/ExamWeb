@@ -30,7 +30,9 @@ Released   : 20121231
             <li> <a class="current_page_item" href="/">Heim</a></li>
             <li> <a href="/accounts/login/">Login</a></li>
             <li> <a href="/accounts/logout/">Logout</a></li>
+            {% if user.is_superuser %}
             <li> <a href="/createExam">Create Exam</a></li>
+            {% endif %}
             <li> <a class="last" href="/examResults/{{ user.id }}">Exam result</a></li>
 
         </nav>
@@ -56,3 +58,118 @@ Released   : 20121231
 </body>
 </html>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+    var usrInput = '';
+    var textarea = null;
+    var li = null;
+    var id = 0;
+    var questionExists = false;
+    var buttid = 0;
+
+    document.getElementById("butt").onclick = function(e) {
+//        textBox(e);
+
+        var text = prompt('Sláðu inn spurninguna');
+//        console.log(text);
+        createQuestion(text);
+    };
+
+    function createQuestion(text){
+        console.log(text);
+        id++;
+        buttid++;
+        var qId = 'q'+id;
+        var idstr = '#'+qId;
+        var idstr2 = '#'+'q'+(id-1);
+
+        if(!questionExists)
+        {
+            $('<li class="question" ><p id="'+qId+'">'+text+'</p></li>').insertAfter('.title');
+
+//
+
+            var option1 = prompt('Valmöguleiki 1');
+            $('<input type="radio" class="choice" name="'+qId+'" value="1" id="'+buttid+'" >')
+                    .insertAfter($(idstr)).after('<span id="'+'optext'+buttid+'">'+option1+'</span>');
+
+
+
+            var strid = '#'+buttid;
+ //           $('</br>').appendTo(strid);
+            console.log("Strid ryse :" +strid);
+
+            buttid++;
+            console.log("Strid:" +strid)
+            var option2 = prompt('Valmöguleiki 2');
+            $('<input type="radio" class="choice" name="'+qId+'" value="2" id="'+buttid+'" >')
+                    .insertAfter($(strid)).after('<span id="'+'optext'+buttid+'">'+option2+'</span>');
+
+
+            var strid = '#'+buttid;
+            $('<br>').insertBefore(buttid);
+
+            buttid++;
+            var option3 = prompt('Valmöguleiki 3');
+            $('<input type="radio" class="choice" name="'+qId+'" value="3" id="'+buttid+'" >')
+                    .insertAfter($(strid)).after('<span id="'+'optext'+buttid+'">'+option3+'</span>');
+
+
+            var strid = '#'+buttid;
+            $('<br>').appendTo(strid);
+
+            buttid++;
+            var option4 = prompt('Valmöguleiki 4');
+            $('<input type="radio" class="choice" name="'+qId+'" value="4" id="'+buttid+'" >')
+                    .insertAfter($(strid)).after('<span id="'+'optext'+buttid+'">'+option4+'</span>');
+
+
+            var strid = '#'+buttid;
+            $('<br>').appendTo(strid);
+
+//            $('<br>').insertBefore('.choice');
+        }
+
+        else
+        {
+            $('<li class="question" ><p id="'+qId+'">'+text+'</p></li>').insertAfter(idstr2);
+
+
+          //  $('<br>').appendTo($(idstr));
+
+            var option1 = prompt('Valmöguleiki 1');
+            $('<input type="radio" class="choice" name="'+qId+'" value="1" id="'+buttid+'">')
+                    .insertAfter($(idstr)).after('<span id="'+'optext'+buttid+'">'+option1+'</span>');
+
+            var strid = '#'+buttid;
+            $('<br>').insertBefore(strid);
+
+            buttid++;
+            var option2 = prompt('Valmöguleiki 2');
+            $('<input type="radio" class="choice" name="'+qId+'" value="2" id="'+buttid+'">')
+                    .insertAfter($(idstr)).after('<span id="'+'optext'+buttid+'">'+option2+'</span>');
+
+            var strid = '#'+buttid;
+            $('<br>').insertBefore(strid);
+
+            buttid++;
+            var option3 = prompt('Valmöguleiki 3');
+            $('<input type="radio" class="choice" name="'+qId+'" value="3" id="'+buttid+'">')
+                    .insertAfter($(idstr)).after('<span id="'+'optext'+buttid+'">'+option3+'</span>');
+
+            var strid = '#'+buttid;
+            $('<br>').insertBefore(strid);
+
+            buttid++;
+            var option4 = prompt('Valmöguleiki 4');
+            $('<input type="radio" class="choice" name="'+qId+'" value="4" id="'+buttid+'">')
+                    .insertAfter($(idstr)).after('<span id="'+'optext'+buttid+'">'+option4+'</span>');
+
+            var strid = '#'+buttid;
+            $('<br>').insertBefore(strid);
+//            $('<br>').insertBefore('.choice');
+        }
+        questionExists = true;
+    }
+
+</script>
