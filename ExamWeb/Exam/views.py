@@ -31,11 +31,8 @@ def create_exam(request):
     return render_to_response("createExam.html")
 
 def post_exam(request):
-    print "kall a post exam"
     if request.method == 'GET':
-        print "jsjejerkj"
         return render_to_response("/")
-
     else:
         txt = request.POST["createExam"]
         deadline = request.POST["date"]
@@ -45,7 +42,6 @@ def post_exam(request):
         e.date_deadline = deadline
         print "Print", request.user
         e.author = request.user
-
         e.save()
     return  HttpResponseRedirect("/")
 
@@ -76,10 +72,6 @@ def return_exam(request, student_id, exam_id):
         e.exam_id = exam_id
         e.student_id = student_id
         e.result = grade
-        print "fjodli purningsa" , exam.question_set.count()
-
-        #choicevalue2 = Choice.objects.get(pk=score2)
-        #e.date_published = datetime.utcnow()
         e.save()
     return  HttpResponseRedirect("/")
 
@@ -87,7 +79,6 @@ def exam_results(request, student_id):
     results = ExamResult.objects.filter(student_id=student_id)
     obj = { "results" : results}
     return render_to_response("examResults.html",obj)
-
 
 def add_question(request , exam_id):
     return render_to_response("addQuestion.html")

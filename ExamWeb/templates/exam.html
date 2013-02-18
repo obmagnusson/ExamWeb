@@ -6,10 +6,10 @@
     <p><a href="/exams/{{ exam.id }}/addQuestion" class="link-style">Bæta við spurningum</a></p>
 
     <h2>{{ exam.title }}</h2>
+    <p>Progress: <progress id="progressbar" max=100></progress></p>
 
+    <div id="percentage"></div>
     {% block list-style2 %}
-
-        <title>{{ exam.title }}</title>
 
         <h2> {{ exam.date_published }} </h2>
         <form action="{{ exam.id }}/return_exam/{{ exam.id }}" method="POST">
@@ -19,11 +19,50 @@
                         {% for x in question %}
                                 <li>{{ x.title }}</li>
                                      {% for c in x.choice_set.all %}
-                                         <input type="radio" name="{{ x.id }}" value="{{ c.id }}"> {{ c.text  }}<br>
+                                         <input type="radio" name="radioQ{{ x.id }}" value="radioQ{{ c.id }}" id="radioQ{{ c.id }}" required > {{ c.text  }}<br>
                                      {% endfor %}
                         {% endfor %}
                 </ul>
             <input type="submit" class="link-style" value="Skila Prófi">
         </form>
     {% endblock %}
+    <section>
+
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                console.log("hey")
+                $('#progressbar').progressbar({
+                    value: 0
+                });
+
+                $('[name*=radioQ]').click(function() {
+                    console.log("click");
+                    var totalChecked = 0;
+                    var totalRadioGroups = 0;
+                    var previousName = '';
+                    $.each($('[name*=radioQ]'), function(index, value) {
+                        var radioName = $(this).attr('name');
+                        var radioId = this.id;
+
+                        if (previousName != radioName) {
+                            totalRadioGroups++;
+                        }
+                        if ($('#' + radioId).is(':checked')) {
+                            totalChecked++;
+                        }
+                        previousName = radioName;
+                    });
+                    var percentage = (totalChecked / totalRadioGroups) * 100;
+                    console.log("percetage :"+percentage);
+                    $('#progressbar').attr('value', percentage);
+                    $('#percentage').html(percentage.toFixed(2) + "%");
+
+                });
+
+            });
+        </script>
+    </section>
+
+
 {% endblock %}
